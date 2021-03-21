@@ -1,2 +1,2 @@
 # My-website
- my website usi ng css and html
+ my website using css and html

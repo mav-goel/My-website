@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = 'static/css/style.css'>
+    <link rel="stylesheet" href = "{{url_for('static', filename='css/style.css')}}">
+
+</head>
+<body class='body'>
+<label for='stocks'>Choose a stock </label>
+<form action="/results" method="POST">
+<select name="company_name" id="company_name">
+
+    <option value="AAPL">Apple</option>
+    <option value="MSFT">Microsoft</option>
+    <option value="GOOGL">Google</option>
+
+</select>
+<input name="submit" id="submit" type='submit'></input>
+</form>
+<br>
+<br>
+<br>
+
+
+
+<textarea name="Price" id="Price" cols="20" rows="2">Price</textarea>
+</body>
+</html>

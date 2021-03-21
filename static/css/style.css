@@ -56,3 +56,15 @@
 #lasdk{
     background-color:silver;
 }
+
+#Price{
+
+    border: 1000px;
+    position: relative;
+    top: 10000000px;
+    background-color:teal;
+}
+
+.body{
+    background-color:teal;
+}
